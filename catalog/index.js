@@ -20,13 +20,16 @@ const pages = [
       {
         path: "/typography",
         title: "Typography",
-        content: pageLoader(() => import(".TYPOGRAPHY.md"))
+        content: pageLoader(() => import("./TYPOGRAPHY.md"))
       }
     ]
   }
 ];
 
 ReactDOM.render(
-  <Catalog title="Catalog" pages={pages} />,
+  <Catalog title="Catalog"
+    title="Tustin Estate Style Guide"
+    pages={pages}
+  />,
   document.getElementById("catalog")
 );
