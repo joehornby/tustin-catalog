@@ -28,7 +28,7 @@ const pages = [
 
 ReactDOM.render(
   <Catalog title="Catalog"
-    title="Tustin Estate Style Guide"
+    title="Tustin Estate"
     pages={pages}
   />,
   document.getElementById("catalog")
